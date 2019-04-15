@@ -21,6 +21,14 @@ tr:nth-child(odd) {
 	background-color: rgb(220,220,220);
 }
 
+.o {
+	background-color: rgb(185,185,185);
+}
+
+.e {
+	background-color: rgb(220,220,220);
+}
+
 p {
     margin: 2px;
     padding: 1px;
@@ -30,27 +38,11 @@ p {
 	line-height: 1em;
 }
 
-p.o {
-	background-color: rgb(185,185,185);
-}
-
-p.e {
-	background-color: rgb(220,220,220);
-}
-
 li {
     color: rgb(0,0,0);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
-}
-
-li.o {
-	background-color: rgb(185,185,185);
-}
-
-li.e {
-	background-color: rgb(220,220,220);
 }
 
 ul {
