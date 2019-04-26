@@ -1,16 +1,24 @@
 body {
-    color: rgb(255,255,255);
-    background-color: rgb(0,0,0);
-    max-width: 50em;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 90px;
+    color: rgb(150,250,100);
+    background-color: rgb(25,25,25);
+    margin-bottom: 45px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smooth: antialiased ;
 }
 
+section {
+    background-color: rgb(15,15,15);
+    max-width: 50em;
+    margin-left:auto;
+    margin-right:auto;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding:10px;
+}
+
 tr {
+    color: rgb(239,239,239);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	padding:6px;
@@ -32,16 +40,18 @@ tr:nth-child(odd) {
 }
 
 .o {
+    color: rgb(239,239,239);
 	background-color: rgb(70,70,70);
 }
 
 .e {
+    color: rgb(239,239,239);
 	background-color: rgb(35,35,35);
 }
 
 p {
     margin: 2px;
-    padding: 1px;
+    padding: 2px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
@@ -65,11 +75,11 @@ ul {
 
 /* unvisited link */
 a:link {
-  color: rgb(255,255,17);
+  color: rgb(220,220,17);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(170,229,116);
+  color: rgb(220,220,17);
 }
