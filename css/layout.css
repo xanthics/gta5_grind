@@ -15,6 +15,7 @@ section {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	padding:10px;
+	line-height: 1.15em;
 }
 
 tr {
@@ -23,7 +24,6 @@ tr {
 	border-radius: 3px;
 	padding:6px;
 	margin: 1px
-	line-height: 1em;
 }
 
 td, th {
@@ -54,7 +54,6 @@ p {
     padding: 2px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	line-height: 1em;
 	padding-left: 2px;
 	padding-right: 2px;
 }
