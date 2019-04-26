@@ -2,10 +2,12 @@ body {
     color: rgb(255,255,255);
     background-color: rgb(0,0,0);
     max-width: 50em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 90px;
 }
 
 tr {
-    color: rgb(0,0,0);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	padding:6px;
@@ -14,32 +16,30 @@ tr {
 }
 
 tr:nth-child(even) {
-	background-color: rgb(185,185,185);
+	background-color: rgb(70,70,70);
 }
 
 tr:nth-child(odd) {
-	background-color: rgb(220,220,220);
+	background-color: rgb(35,35,35);
 }
 
 .o {
-	background-color: rgb(185,185,185);
+	background-color: rgb(70,70,70);
 }
 
 .e {
-	background-color: rgb(220,220,220);
+	background-color: rgb(35,35,35);
 }
 
 p {
     margin: 2px;
     padding: 1px;
-    color: rgb(0,0,0);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
 }
 
 li {
-    color: rgb(0,0,0);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
@@ -47,9 +47,18 @@ li {
 
 ul {
     margin: 2px;
-    color: rgb(0,0,0);
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
-	background-color: rgb(200,200,200);
+	background-color: rgb(55,55,55);
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255,255,17);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(170,229,116);
 }
