@@ -32,7 +32,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-	background-color: rgb(70,70,70);
+	background-color: rgb(40,40,40);
 }
 
 tr:nth-child(odd) {
@@ -41,7 +41,7 @@ tr:nth-child(odd) {
 
 .o {
     color: rgb(239,239,239);
-	background-color: rgb(70,70,70);
+	background-color: rgb(40,40,40);
 }
 
 .e {
@@ -70,7 +70,7 @@ ul {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
-	background-color: rgb(55,55,55);
+	background-color: rgb(37,37,37);
 }
 
 /* unvisited link */
