@@ -5,6 +5,9 @@ body {
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 90px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: antialiased ;
 }
 
 tr {
@@ -13,6 +16,11 @@ tr {
 	padding:6px;
 	margin: 1px
 	line-height: 1em;
+}
+
+td, th {
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 tr:nth-child(even) {
@@ -37,6 +45,8 @@ p {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	line-height: 1em;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 li {
@@ -56,6 +66,7 @@ ul {
 /* unvisited link */
 a:link {
   color: rgb(255,255,17);
+  text-decoration: none;
 }
 
 /* visited link */
