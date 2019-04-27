@@ -39,7 +39,7 @@ maketimers()
 		Gui, Add, Text, % "x1 y"idx*15 " w60" " v"Row.2 "1 cc49964 BackgroundTrans", % Row.2
 		Gui, Add, Text, % "x60 y"idx*15 " w60 v"Row.2 "2 cc49964 BackgroundTrans", % Row.5 "/" Row.4
 		Gui, Add, Text, % "x120 y"idx*15 " w60 v"Row.2 "3 cc49964 BackgroundTrans", % format_elapsed(Row.6 - mytime) ;
-		GuiControl, +cGreen, % Row.2/ "1"
+		GuiControl, +cGreen, % Row.2 "1"
 ;		GuiControl, +cGreen, Clock2
 		idx += 1
 	}
@@ -89,14 +89,14 @@ update_gta5_clock:
 	}
 	return
 }
-; MC Cocaine supplies arrive, resets everything
+; Bunker supplies ordered, resets everything and adds the 15 minute timer
 ^NumpadMult::
 {
 	mytime := A_TickCount
 	For, Each, Row in timerarr
 	{
 		if (Row.1 == "altnum*") {
-			Row.6 := mytime + Row.3 * 60000
+			Row.6 := mytime + (Row.3 + 15) * 60000
 			Row.5 := 0
 			GuiControl,, % Row.2 "2", % Row.5 "/" Row.4
 		}
