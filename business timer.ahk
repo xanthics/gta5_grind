@@ -89,14 +89,14 @@ update_gta5_clock:
 	}
 	return
 }
-; Bunker supplies ordered, resets everything and adds the 15 minute timer
+; Bunker supplies ordered, resets everything and adds the 10 minute timer
 ^NumpadMult::
 {
 	mytime := A_TickCount
 	For, Each, Row in timerarr
 	{
-		if (Row.1 == "altnum*") {
-			Row.6 := mytime + (Row.3 + 15) * 60000
+		if (Row.1 == "altnum/") {
+			Row.6 := mytime + (Row.3 + 10) * 60000
 			Row.5 := 0
 			GuiControl,, % Row.2 "2", % Row.5 "/" Row.4
 		}
