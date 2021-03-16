@@ -1,5 +1,7 @@
 body {
     color: rgb(150,250,100);
+ 	background-image: url('../img/sbg.gif');
+	background-attachment: fixed;
     background-color: rgb(25,25,25);
     margin-bottom: 45px;
     -webkit-font-smoothing: antialiased;
@@ -85,4 +87,25 @@ a:link {
 /* visited link */
 a:visited {
   color: rgb(220,220,17);
+}
+
+#sponsor {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    gap: 5px;
+    width: 225px;
+}
+
+.sponsor_img {
+    height: auto;
+    width: 100%
+}
+
+#github_image{
+    flex:3.1;
+}
+
+#patreon_image {
+    flex:4.255;
 }
