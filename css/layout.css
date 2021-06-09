@@ -25,7 +25,11 @@ tr {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	padding:6px;
-	margin: 1px
+	margin: 1px;
+}
+
+table {
+	width: 100%;
 }
 
 td, th {
